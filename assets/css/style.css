@@ -1,0 +1,61 @@
+/* football styles  */
+
+  body {
+    background-color: rgb(5, 5, 5);
+}
+
+ .ball {
+    background: url(../img/wc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    height: 73rem;
+}
+
+ .ball div {
+    right: 94px;
+    top: 32%;
+}
+
+/* media quary */
+
+ @media (max-width: 767px) {
+    .ball {
+        padding: 5rem 9rem 18rem 10rem !important;
+        height: auto !important;
+    }
+
+     .ball div {
+        top: 29% !important;
+        left: 70% !important;
+        right: 0% !important;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+     .ball div {
+        top: 35% !important;
+        left: 75% !important;
+        right: 0% !important;
+    }
+
+     .ball {
+        height: 47rem !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+     .ball div {
+        top: 26% !important;
+        left: 68% !important;
+        right: 0% !important;
+    }
+
+     .ball {
+        height: 47rem !important;
+    }
+}
+/* media quary end */
+/* football style end  */
